@@ -1,0 +1,21 @@
+.about_container{
+  display: flex;
+}
+
+.tree_container{
+  margin-right: 20px;
+  min-width: 250px;
+}
+
+.tree_container .ant-tree{
+  display: inline-block;
+  background: transparent;
+}
+
+.tree_container .ant-tree-show-line .ant-tree-switcher{
+  background: transparent;
+}
+
+.content_container{
+  flex: 1;
+}

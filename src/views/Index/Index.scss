@@ -1,0 +1,32 @@
+@import '../../scss/common.scss';
+
+.data_area{
+  margin-bottom: 20px;
+}
+
+.header_data_card{
+  width: 24.5%;
+  display: inline-block;
+  margin-right: 0.667%;
+}
+
+.data_area .header_data_card:last-child{
+  margin-right: 0;
+}
+
+.number_count{
+  font-size: 48px;
+  font-weight: 500;
+  @include theme_color;
+}
+
+.chart_card{
+  width: 49.6665%;
+  display: inline-block;
+  margin-right: 0.667%;
+  margin-bottom: 5px;
+}
+
+.chart_area .chart_card:nth-child(2n){
+  margin-right: 0;
+}

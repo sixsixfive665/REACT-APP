@@ -1,0 +1,25 @@
+$color_default:#1890ff;
+$color_7fccde: #7fccde;
+$color_6698cb:#6698cb;
+$color_cb99c5: #cb99c5;
+
+@mixin theme_bg_color {
+  background-color: $color_default;
+  [config-theme="#7fccde"] & {background-color: $color_7fccde};
+  [config-theme="#6698cb"] & {background-color: $color_6698cb};
+  [config-theme="#cb99c5"] & {background-color: $color_cb99c5};
+}
+
+@mixin theme_color {
+  color: $color_default;
+  [config-theme="#7fccde"] & {color: $color_7fccde};
+  [config-theme="#6698cb"] & {color: $color_6698cb};
+  [config-theme="#cb99c5"] & {color: $color_cb99c5};
+}
+
+:export {
+  color_default: $color_default;
+  color_7fccde: $color_7fccde;
+  color_6698cb: $color_6698cb;
+  color_cb99c5: $color_cb99c5;
+}
