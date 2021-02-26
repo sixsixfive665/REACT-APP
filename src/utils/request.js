@@ -7,7 +7,7 @@ import Lockr from 'lockr/index'
 // 创建axios实例
 const service = axios.create({
   baseURL: store.getState().config.baseUrl,
-  timeout: 5000 // 请求超时时间
+  timeout: 10000 // 请求超时时间
 })
 const hashHistory = createHashHistory();
 
